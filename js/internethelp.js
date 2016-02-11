@@ -175,35 +175,35 @@ function How() { //provide the how to instructions for the question if asked
 	switch(questionnumber){
 		case 1:
 		document.getElementById('HowtoArea').textContent = "Hold down the power button located on the edge of the tablet located to the top left of the word SAMSUNG it is the smaller of the two buttons, press that till a box appears on screen asking if you want to restart the device, then press restart which has a blue circle located next to it";
-		document.getElementById('answerimg1').src= "pwrbtnloc.jpg";
-		document.getElementById('answerimg2').src= "rstbtnloc.jpg";
+		document.getElementById('answerimg1').src= "images/pwrbtnloc.jpg";
+		document.getElementById('answerimg2').src= "images/rstbtnloc.jpg";
 		break;
 		
 		case 2:
 		document.getElementById('HowtoArea').textContent = "Look at the top right of the screen next/near to the clock";
-		document.getElementById('answerimg1').src= "3gor4gbroken.jpg";
+		document.getElementById('answerimg1').src= "images/3gor4gbroken.jpg";
 		break;
 		
 		case 3:
 		document.getElementById('HowtoArea').textContent = "With the tablet unlocked open the DCVS app located on the main screen, press your finger at the top of the screen below where it says SAMSUNG and drag your finger down so that it opens the tray, and lift your finger off the screen and now where there are a row of buttons you should see the Mobile Data icon";
-		document.getElementById('answerimg1').src= "notifyp1.png";
-		document.getElementById('answerimg2').src= "notifyp2.png";
-		document.getElementById('answerimg3').src= "mobdata.png";
+		document.getElementById('answerimg1').src= "images/notifyp1.png";
+		document.getElementById('answerimg2').src= "images/notifyp2.png";
+		document.getElementById('answerimg3').src= "images/mobdata.png";
 		// video showing how to open mobile data goes here
 		break;
 		
 		case 4:
 		document.getElementById('HowtoArea').textContent = "The SIM card slot is located on the right side of the table below the charging cable slot/socket";
-		document.getElementById('answerimg1').src= "simslot1.jpg";
-		document.getElementById('answerimg2').src= "simslot2.jpg";
+		document.getElementById('answerimg1').src= "images/simslot1.jpg";
+		document.getElementById('answerimg2').src= "images/simslot2.jpg";
 		// image showing location of SIM CARD
 		break;
 		
 		case 5:
 		document.getElementById('HowtoArea').textContent = "With the tablet unlocked, press your finger on the bar at the top of the screen under the word SAMSUNG and drag your finger down pulling open the notification tray and once it is fully out let go of the screen and is there a notice saying that you have gone over the limit?";
-		document.getElementById('answerimg1').src= "notifyp1.png";
-		document.getElementById('answerimg2').src= "notifyp2.png";
-		document.getElementById('answerimg3').src= "datalimit.png";
+		document.getElementById('answerimg1').src= "images/notifyp1.png";
+		document.getElementById('answerimg2').src= "images/notifyp2.png";
+		document.getElementById('answerimg3').src= "images/datalimit.png";
 		//get contact details for help desk
 		break;
 		
@@ -221,7 +221,7 @@ function How() { //provide the how to instructions for the question if asked
 
 		default:
 		document.getElementById('HowtoArea').textContent = "Please press the power button on the edge of the tablet located to the top left of the word SAMSUNG it is the smaller of the two buttons";
-		document.getElementById('answerimg1').src= "pwrbtnloc.jpg";
+		document.getElementById('answerimg1').src= "images/pwrbtnloc.jpg";
 	}
 }
 
@@ -230,7 +230,7 @@ function Restart() {
 	document.getElementById('QuestionArea').textContent = "Is the Tablet turned on?";
 	document.getElementById('AnswerArea').textContent = " ";
 	document.getElementById('HowtoArea').textContent = " ";
-	document.getElementById('answerimg1').src= "internetbroke.jpg";
+	document.getElementById('answerimg1').src= " ";
 	document.getElementById('answerimg2').src= " ";
 	document.getElementById('answerimg3').src= " ";
 	console.log(questionnumber);
